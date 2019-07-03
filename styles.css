@@ -1,0 +1,47 @@
+@media print {
+    body.path-course-view, body.path-mod-page {
+        padding-top:0;
+    }
+    .path-course-view #page-header, .path-mod-page #page-header{
+        display: none;
+    }
+    .path-course-view .navbar, .path-mod-page .navbar{
+        display: none;
+    }
+    .path-course-view #wrapper, .path-mod-page #wrapper{
+        border-top: none;
+        margin:0;
+    }
+    .path-course-view #page-header-nav, .path-mod-page #page-header-nav{
+        display:none;
+    }
+    .path-course-view #block-region-side-post, .path-mod-page #block-region-side-post{
+        display: none;
+    }
+    .path-course-view #region-bs-main-and-pre, .path-mod-page #region-bs-main-and-pre{
+        width: 100%;
+    }
+    .path-course-view .course-content #completionprogressid, .path-mod-page .course-content #completionprogressid{
+        display:none;
+    }
+    .path-course-view .back-to-top, .path-mod-page .back-to-top{
+        display: none!important;
+    }
+    .path-course-view .responsive-video, .path-mod-page .responsive-video{
+        border: 1px solid #cecece;
+        width: 200px;
+        padding-bottom: 100px;
+    }
+    .path-course-view .responsive-video::before, .path-mod-page .responsive-video::before{
+        content:'Video';
+        position: absolute;
+        top: 39%;
+        left: 41%;
+        color: #cecece;
+    }
+    .path-course-view .usertour, .path-mod-page .usertour{
+        display: none;
+    }
+}
+
+
